@@ -1,0 +1,15 @@
+<div>
+    <form [formGroup]="createTodoForm" (ngSubmit)="createTodo()">
+        <h2>Create Todo:</h2>
+        <div>
+            <label>description</label>
+            <input placeholder="Enter description" formControlName="description" required />
+        </div>
+        <div>
+            <label>Date</label>
+            <input type="date"  placeholder="Enter date" formControlName="date" required />
+        </div>
+        <button [disabled]="createTodoForm.invalid" type="submit">Add todo</button>
+    </form>
+</div>
+

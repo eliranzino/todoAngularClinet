@@ -1,0 +1,6 @@
+<div [class.complete]='todo.Complete'  class='todo'>
+    <button (click)='delete(todo)' class='deleteButton'>X</button>
+    <input type="checkbox" [checked]="todo.Complete" class="isComplete" (click)='handlePut(todo)'/>
+    <div><span>Description: </span>{{todo.description}}</div>
+    <div><span>Date: </span>{{todo.date}}</div>
+</div>

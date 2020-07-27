@@ -1,0 +1,23 @@
+.todoList{
+    text-align: center;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.coverTodo{
+    display: inline-block;
+}
+
+h2{
+    margin: 20px;
+}
+.todos{
+    display: inline-block;
+    margin:10px ;
+}
+
+.todosList{
+    display: inline-block;
+    margin: 10px;
+}
+

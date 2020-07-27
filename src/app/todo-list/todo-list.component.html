@@ -1,0 +1,10 @@
+<app-header></app-header>
+<app-create-todos></app-create-todos>
+
+<h2 class='todoList'>Todo list:</h2>
+    <div *ngFor="let todo of todos$ | async" class='coverTodo'>
+        <app-todo [todo]='todo'></app-todo>
+    </div>
+
+
+

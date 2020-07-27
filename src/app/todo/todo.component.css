@@ -1,0 +1,45 @@
+.todo {
+    width: 236px;
+    height: 238px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    margin: 20px;
+    background-color: burlywood;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow-wrap: break-word;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    position: relative;
+}
+
+.complete{
+    background-color: chartreuse;
+}
+
+button {
+    width:20px ;
+    height: 20px;
+    background-color: #eee;
+    border: none;
+    right: 1px;
+    border-radius: 4px;
+    cursor: pointer;
+    cursor: hand;
+    font-family: Arial;
+    position: relative;
+  }
+  
+  button:hover {
+    background-color: #cfd8dc;
+  }
+  
+  button.delete {
+    right: 10px;
+    position: relative;
+    top: -32px;
+    background-color: gray !important;
+    color: white;
+  }

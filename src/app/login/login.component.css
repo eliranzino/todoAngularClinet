@@ -1,4 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+input{
+    margin: 20px;
+}
+
+form{
+    text-align: center;
+}
+
 body{
     background-image: url("https://harmonya.co.il/wp-content/uploads/2017/01/bulletin-board-background.jpg");
   }
